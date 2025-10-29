@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +6,166 @@
     <link rel="stylesheet" href="/src/output.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <div>
-        <h1 class="text-3xl font-bold underline text-center hover:scale-200 bg-purple-700 rounded-4xl w-[10%] h-[5%] text-blue-500">
-            Hello, Tailwind CSS!
-        </h1>
+<body class="flex flex-col">
+    <div class="bg-gray-100 md:bg-gray-100">
+      <header class="flex justify-around pt-[1%] border-b-black border-b-[1px] overflow-hidden pb-5" >
+<div class="flex justify-around gap-20">
+    <img src="dp/Logo.png" alt="">
+    <img src="dp/Icon (12).png" alt="" class="flex md:hidden">
+</div>
+
+
+<div class="flex gap-8 hidden md:flex">
+<button class="hover:text-green-400 hover:border-b-6 hover:border-black hover:pb-5 duration-300 hover:duration-300 ">Início</button>
+<button class="hover:text-green-400 hover:border-b-6 hover:border-black hover:pb-5 duration-300 hover:duration-300 ">Sobre</button>
+<button class="hover:text-green-400 hover:border-b-6 hover:border-black hover:pb-5 duration-300 hover:duration-300 ">Serviços</button>
+<button class="hover:text-green-400 hover:border-b-6 hover:border-black hover:pb-5 duration-300 hover:duration-300 ">Depoimentos</button>
+<button class="hover:text-green-400 hover:border-b-6 hover:border-black hover:pb-5 duration-300 hover:duration-300 ">Contato</button>
+</div>
+ 
+
+   </header>
+
+
+   <section class="md:flex md:flex-row-reverse md:gap-20 flex-col-reverse  gap-40 pt-20  overflow-hidden md:pb-20" >
+
+<img src="dp/Img (2).png" class="pr-20 duration-300 hover:duration-300 hover:scale-105 md:w-[600px] w-[600px]" alt="">
+
+    <div class="flex flex-col gap-10 p-20 md:pb-30">
+        <h1 class="font-bold text-5xl">Saúde natural para <br>
+             os seus cabelos</h1>
+             <p class="text-[lightgray]">Um salão exclusivo em São Paulo, <br>
+                 especializado em tratamentos naturais.</p>
+                 <button class="bg-[#6ea66e] w-50 p-[3%] rounded-[10px] text-white hover:scale-105 hover:delay-200 hover:duration-300 duration-300">Agendar um horário</button>
+
+
     </div>
+
+    
+   </section>
+   
+    </div>
+   <section class="md:flex md:flex-row md:justify-around flex flex-col gap-10 p-[10%] md:gap-10 md:p-[10%]  ">
+<img src="dp/Img (3).png" alt="">
+<div class="flex flex-col gap-10">
+    <h1 class="text-4xl">Sobre nós</h1>
+    <p class="text-[gray]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu <br>
+         quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed <br>
+          consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta,<br>
+           pellentesque massa vitae, vehicula risus. 
+</p>
+    <p class="text-[gray]">In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna <br>
+         turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus <br>
+          elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed. </p>
+    <p class="text-[gray]">Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a <br>
+         leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur <br>
+          fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum <br>
+           lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.</p>
+</div>
+   </section>  
+
+   <section class="flex flex-col gap-20 p-[5%] bg-gray-50 pb-20">
+    <div class="md:text-center text-start "><h1 class="font-bold text-4xl">Serviços</h1><br>
+    <p>Com mais de 10 anos no mercado, o  <span class="text-[#6ea66e]">Beautysalon</span> já <br>
+         conquistou clientes de inúmeros países com seus tratamentos <br>
+          exclusivos e totalmente naturais</p>
+        </div>
+    
+<div class="flex flex-col gap-20  md:flex md:flex-row md:gap-10 md:pb-10 justify-center ">
+    
+<div class="flex flex-col gap-10 items-center border-b-[#6ea66e] border-b-7 shadow-[0px_0px_4px_0px] rounded-xs p-[3%]">
+<img src="dp/Icon (13).png" alt="">
+<h1 class="font-bold text-4xl">Terapia capilar</h1>
+<p class="text-[gray]">Terapia completa para couro <br>
+     cabeludo e fios, protegendo todos <br>
+      os tipos de cabelos, inclusive os <br>
+       longos e finos.</p><br>
+</div>
+
+
+<div class="flex flex-col gap-10 items-center border-b-[#6ea66e] border-b-7 shadow-[0px_0px_4px_0px] rounded-xs p-[3%]">
+<img src="dp/Icon (14).png" alt="">
+<h1 class="font-bold text-4xl">Cortes</h1>
+<p class="text-[gray]">A nossa equipe é repleta de <br>
+     profissionais renomados, famosos <br>
+     por lançarem tendências com <br>
+      cortes diferenciados e clássicos.</p><br>
+</div>
+
+
+<div class="flex flex-col gap-10 items-center border-b-[#6ea66e] border-b-7 shadow-[0px_0px_4px_0px] rounded-xs p-[3%]">
+<img src="dp/Icon (15).png" alt="">
+<h1 class="font-bold text-4xl">Tratamentos</h1>
+<p class="text-[gray]">O beautysalon conta com <br>
+     diversos tratamentos naturais e <br>
+      totalmente veganos, para <br>
+       qualquer tipo de cabelo.</p><br>
+</div>
+
+</div>
+
+</div>
+   </section>
+
+
+   <section class="flex flex-col p-[10%] gap-20 md:flex-col md:flex md:gap-20 ">
+<h1 class="font-bold text-3xl text-center">Depoimentos de quem já <br>
+     passou por aqui</h1>
+     <div class="flex justify-center gap-25 ">
+        <div class="flex flex-col gap-10  p-[3%] shadow-[0px_0px_4px_0px] shadow-[lightgray] rounded-xs">
+           <p class="" >  <img src="dp/Aspas.png" class="w-[17px]" alt="">    Eu sou cliente do Beautysalon há 5 anos e não troco <br>
+             por nada! Certamente meu cabelo mudou muito depois <br>
+              que comecei a tratar somente com produtos naturais e <br>
+               veganos. São profissionais incríveis e qualificados.   </p> 
+               <img src="dp/Client.png" alt="" class="w-[150px]">
+        </div>
+
+
+<div class=" hidden  md:flex flex-col gap-10  p-[3%] md:shadow-[0px_0px_4px_0px] shadow-[lightgray] rounded-xs">
+           <p class="" >   <img src="dp/Aspas.png" class="w-[17px]" alt="">     Minha mãe frequenta o salão há anos e me levou um dia<br>
+             para conhecer. Minha experiência foi incrível, eu continuo <br>
+              fazendo o a terapia capilar e isso salvou o meu cabelo. <br>
+                  Adoro todos os profissionais do Beautysalon.
+</p> 
+               <img src="dp/Client (1).png" alt="" class="w-[150px]">
+        </div>
+        
+        
+     </div>
+     <div class="flex justify-center"><img src="dp/Dots.png" alt="" class=" w-[46px]  "></div>
+     
+   </section>
+
+
+<section class="bg-gray-50 flex flex-col gap-20 justify-center p-[10%] md:flex md:flex-row md:gap-100   ">
+<div class="flex flex-col gap-10">
+<h1 class="font-bold text-3xl">Entre em contato <br>
+     com a gente!</h1>
+     <p class="text-[gray]">Entre em contato com a Beautysalon,<br>
+         queremos tirar suas 
+          dúvidas, ouvir suas críticas <br> e sugestões.</p>
+          <button class="bg-[#6ea66e] flex gap-5 w-50 p-[3%] rounded-[10px] text-white hover:scale-105 hover:delay-200 hover:duration-300 duration-300"><img src="dp/whatsapp 1.png" class="w-[20px]" alt="">Entrar em contato</button>
+</div>
+
+
+<div class="flex flex-col  gap-10">
+<p class="flex gap-10"><img src="dp/phone 1.png"  class="w-5"  alt="">11 99845-6754</p>
+<p class="flex gap-10"><img src="dp/map-pin 1.png" class="w-5"  alt="">R. Amauri Souza, 346</p>
+<p class="flex gap-10"><img src="dp/mail 1.png"  class="w-5" alt="">contato@beautysalon.com</p>
+
+
+</div>
+</section>
+
+
+<footer class="bg-[#6ea66e] p-[4%] flex flex-col gap:25  md:gap-250 md:flex  md:flex-row ">
+<div class="flex flex-col gap-10 pb-10">
+<img src="dp/Logo (1).png" class="w-[40%] md:w-[70%]" alt="">
+<p class="text-white">©2021 Beautysalon.</p>
+<p class="text-white">Todos os direitos reservados.</p>
+</div>
+
+<div><img src="dp/Redes sociais.png"  alt=""></div>
+</footer>
+   
 </body>
-</html>
